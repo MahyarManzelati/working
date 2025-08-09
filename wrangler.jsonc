@@ -1,0 +1,14 @@
+{
+  "name": "itinerary-worker",
+  "main": "index.js",
+  "compatibility_date": "2025-08-09",
+  "vars": { "FIRESTORE_PROJECT_ID": "nodal-subset-430001-f9" },
+  "kv_namespaces": [
+    {
+      "binding": "JOBS_KV",
+      "id": "d146823176904eed8da2c2dfdbb13cd9",
+      "preview_id": "e1c4fe73b6774ffebe6274bc87bb6675"
+    }
+  ],
+  "triggers": { "crons": ["*/1 * * * *"] }
+}
