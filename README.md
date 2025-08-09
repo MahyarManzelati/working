@@ -147,7 +147,7 @@ You’ll see `status: "processing"` first, then `"completed"` with the itinerary
 ## 5) Deploy
 
 ```bash
-wrangler publish
+wrangler deploy
 ```
 
 You’ll get a `https://<name>.<subdomain>.workers.dev` URL. Use the same `POST`/`GET` calls with that base URL.
